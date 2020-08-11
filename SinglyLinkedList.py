@@ -1,10 +1,8 @@
-""" Esta eh uma classe auxiliar que representa um No da lista encadeada.
-    Cada No eh composto por um valor e um ponteiro que aponta para o
-    proximo No.
-"""
-
-
 class Node:
+    """ Esta eh uma classe auxiliar que representa um No da lista encadeada.
+        Cada No eh composto por um valor e um ponteiro que aponta para o
+        proximo No.
+    """
     def __init__(self, value):
         self.value = value
         self.next = None
